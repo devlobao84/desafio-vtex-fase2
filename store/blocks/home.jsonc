@@ -1,0 +1,51 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "slider-layout#text-test"
+    ]
+  },
+  
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["image#1example", "image#2example", "image#3example"]
+  },
+
+  "image#1example": {
+    "props": {
+      "src": "https://cdn.statically.io/gh/devlobao84/img-for-cdn/main/banner-wood-home.png",
+      "maxHeight": 24
+    }
+  },
+
+  "image#2example": {
+    "props": {
+      "src": "https://cdn.statically.io/gh/devlobao84/img-for-cdn/main/banner-wood-home.png",
+      "maxHeight": 24
+    }
+  },
+
+  "image#3example": {
+    "props": {
+      "src": "https://cdn.statically.io/gh/devlobao84/img-for-cdn/main/banner-wood-home.png",
+      "maxHeight": 24
+    }
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
