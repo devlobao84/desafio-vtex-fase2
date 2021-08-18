@@ -78,7 +78,7 @@
   },
   "semanticColors": {
     "background": {
-      "base": "#212121",
+      "base": "#303030",
       "base--inverted": "#03044e",
       "action-primary": "#0F3E99",
       "action-secondary": "#eef3f7",
@@ -326,14 +326,14 @@
       "heading-1": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "700",
-        "fontSize": "3rem",
+        "fontSize": "5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
         "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
         "fontWeight": "700",
-        "fontSize": "2.25rem",
+        "fontSize": "5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },

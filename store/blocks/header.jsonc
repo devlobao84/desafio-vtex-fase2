@@ -46,7 +46,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://cdn.statically.io/gh/devlobao84/img-for-cdn/main/upmedal.png",
-      "width": "80"
+      "width": "125"
     }
   },
   "header-layout.mobile": {
@@ -175,7 +175,7 @@
             "type": "internal",
             "href": "#",
             "noFollow": false,
-            "text": "ÁLBUM 2"
+            "text": "ÁLBUM 1"
           }
         }
 
