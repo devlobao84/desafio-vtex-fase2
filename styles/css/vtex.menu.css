@@ -1,13 +1,10 @@
-.menuContainer {
-    background-color: #212121;
-}
 
-.styledLinkContent {
-    color: white;
-    
-}
 
-.menuContainer {
-    justify-content: center;
-}
+
+
+.menuContainer {background-color: #212121;}
+
+.styledLinkContent {color: white;}
+
+.menuContainer {justify-content: center;}
 

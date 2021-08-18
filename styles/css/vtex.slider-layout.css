@@ -2,3 +2,7 @@
 .slideChildrenContainer--carosel {
     background-color: #303030;
 }
+
+.paginationDot--isActive {
+    background-color: #59ff00;
+}

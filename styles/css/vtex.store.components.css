@@ -4,3 +4,11 @@
     border-radius: 100px;
 }
 
+.searchBarContainer {
+    margin-left: 200px;
+    max-width: 200px;
+}
+
+.logoImage {
+    margin-left: -100px;
+}

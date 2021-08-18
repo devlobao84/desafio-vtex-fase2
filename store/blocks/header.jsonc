@@ -28,9 +28,7 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",      
-      "search-bar",
-      "locale-switcher",
-      "login",
+      "search-bar",   
       "minicart.v2"
     ]
   },
@@ -75,8 +73,7 @@
 
   "vtex.menu@2.x:menu#websites": {
     "props": {
-      "items": [
-        
+      "items": [        
         {
           "id": "menu-item-shop",
           "type": "custom",

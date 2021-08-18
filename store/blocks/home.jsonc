@@ -1,11 +1,14 @@
 {
   "store.home": { 
     "blocks": [      
-      "slider-layout#text-test"
+      "flex-layout.row#principal01"
     ]
   },
-  
-  "slider-layout#text-test": {
+  "flex-layout.row#principal01": {
+    "children": ["slider-layout#first"],
+    "props":{ }
+  },   
+  "slider-layout#first": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -20,18 +23,15 @@
   },
 
   "image#1example": {
-    "props": {
-      "showNavigationArrows": "enum",
-      "infinito": "true",
+    "props": {      
       "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf?response-content-disposition=inline%3B%20filename%3D%22BANNER-WOOD.png%22%3B%20filename%2A%3DUTF-8%27%27BANNER-WOOD.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210818%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210818T022350Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=44e7e0d21e13f9545ebb6ac1a5434d73b4fa35ddcff6f0002b74353922ea4d4b",
       "maxHeight": 250      
     }
   },  
   
   "image#2example": {
-    "props": {
-      "showNavigationArrows": "enum",
-      "infinito": "true",
+    "props": {     
+      
       "src": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e?response-content-disposition=inline%3B%20filename%3D%22W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png%22%3B%20filename%2A%3DUTF-8%27%27W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIRHGNFPZAGTZ7SUA%2F20210818%2Fsa-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210818T045306Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=7d792bb826025f09f5a44b14653fe35a6ceb767c503831467535aa7d93e222a5",
       "maxHeight": 250
     }
