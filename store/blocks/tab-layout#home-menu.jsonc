@@ -1,0 +1,72 @@
+{
+    "tab-layout#home-menu": {
+        "children": [
+            "tab-list",
+            "tab-content"
+        ]
+        
+    },  
+
+    // Filho 1
+    "tab-list": {
+        "children": [
+            "tab-list.item#1",
+            "tab-list.item#2"
+  
+        ]
+    },
+
+
+    // Sobrinho 1
+    "tab-content": {
+        "children": [
+            "tab-content.item#1"
+            
+        ]
+    },
+
+    // Filho 1 - 1
+    "tab-list.item#1": {
+        "props": {
+            "tabId": "majorAppliances",
+            "label": "Major Appliances",
+            "defaultActiveTab": true
+        }
+    },
+
+    // Filho 1 -2 
+    "tab-list.item#2": {
+        "props": {
+            "tabId": "electronics",
+            "label": "Electronics"
+        }
+    },  
+
+
+    // Sobrinho 1 - 1
+    "tab-content.item#1": {
+        "children": [
+            "search-result-layout#customQuery"
+        ],
+        "props": {
+            "tabId": "majorAppliances"
+        }
+    },    
+    
+    "search-result-layout#customQuery": {
+        "blocks": ["search-result-layout.desktop"], 
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "UpMedal",
+                "mapField": "ft",
+                "skusFilter": "ALL_AVAILABLE"
+            }
+        }       
+
+    }
+
+
+}

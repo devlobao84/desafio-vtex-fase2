@@ -8,6 +8,11 @@
 }
 
 
-.careIcon, .careIcon--carosel {
+.caretIcon {
     color: #58FF00;
+}
+
+.sliderArrows {    
+    margin-top: 20%;
+    padding: 0 40% 0 40%;
 }
