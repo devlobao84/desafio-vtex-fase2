@@ -2,13 +2,15 @@
   "store.home": { 
     "blocks": [      
       "flex-layout.row#principal01",
-      "tab-layout#home-menu"     
+      "list-context.product-list#demo1"
         
     ]
   },
   "flex-layout.row#principal01": {
     "children": ["slider-layout#first"],
-    "props":{ }
+    "props":{
+      "marginTop": 2
+     }
   },   
   "slider-layout#first": {
     "props": {
@@ -43,6 +45,16 @@
   }
   
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

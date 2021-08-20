@@ -1,18 +1,33 @@
 .slideChildrenContainer,
 .slideChildrenContainer--carosel {
-    background-color: #303030;
+    background-color: #1b1a1a;
 }
 
 .paginationDot--isActive {
+    margin-top: -5%;
     background-color: #59ff00;
 }
 
+.paginationDot {
+    margin-top: -5%;
+
+}
+
+.slideChildrenContainer {
+    background-color: 212020;
+    margin: none;
+    padding: none;
+}
 
 .caretIcon {
     color: #58FF00;
 }
 
 .sliderArrows {    
-    margin-top: 20%;
+    margin-top: 15%;
     padding: 0 40% 0 40%;
+}
+
+.slide {
+    margin-bottom: 2%;
 }
