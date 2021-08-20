@@ -2,8 +2,7 @@
   "store.home": { 
     "blocks": [      
       "flex-layout.row#principal01",
-      "list-context.product-list#demo1"
-        
+      "list-context.product-list#demo1"              
     ]
   },
   "flex-layout.row#principal01": {
@@ -42,9 +41,18 @@
       "alt": "Kit com camiseta preta e caneca personalizada",
       "maxHeight": 250
     }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
   }
-  
+
 }
+  
+
 
 
 
