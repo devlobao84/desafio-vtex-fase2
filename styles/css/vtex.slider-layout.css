@@ -8,6 +8,16 @@
     background-color: #59ff00;
 }
 
+.paginationDot--shelf {
+    margin-top: -5%;
+
+}
+
+.paginationDot--isActive--shelf {
+    margin-top: -5%;
+    background-color: #59ff00;
+}
+
 .paginationDot {
     margin-top: -5%;
 
@@ -23,8 +33,8 @@
     color: #58FF00;
 }
 
-.sliderArrows {    
-    margin-top: 15%;
+.sliderArrows, .sliderArrows--shelf {
+    margin-top: 20%;
     padding: 0 40% 0 40%;
 }
 
