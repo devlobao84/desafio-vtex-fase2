@@ -16,6 +16,10 @@
     ]
   },
 
+  "header-row#1-desktop": {
+    "children": ["minicart.v2"]
+  },
+
   "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
@@ -73,6 +77,16 @@
   },
   "drawer": {
     "children": []
+  },
+  "flex-layout.row#list-row.mobile": {
+    "children": [
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.row#minicart-footer": {
+    "children": [
+      "minicart.v2"
+    ]
   },
 
   "vtex.menu@2.x:menu#websites": {

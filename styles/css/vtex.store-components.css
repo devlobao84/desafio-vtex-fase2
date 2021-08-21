@@ -26,6 +26,17 @@
     color: black;
 }
 
+.autoCompleteOuterContainer {
+    
+    border-color: #59FF00;
+}
+
+.serachBarContainer {
+    width: 100%;
+    
+}
+
+
 
 
 

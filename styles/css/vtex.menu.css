@@ -1,6 +1,7 @@
 
 .menuContainer {background-color: #0b0a14;}
 .styledLinkContent {color: white;}
+.styledLinkContent:hover {color: #59FF00;}
 .menuContainer {justify-content: center;}
 
 

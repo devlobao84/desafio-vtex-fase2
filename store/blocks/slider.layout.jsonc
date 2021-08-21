@@ -1,34 +1,38 @@
 {
     "slider-layout#first": {
-    "props": {
-        "itemsPerPage": {
-            "desktop": 1,
-            "tablet": 1,
-            "phone": 1
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 1200,
+                "stopOnHover": true
+            },
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
         },
-        "infinite": true,
-        "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
+        "children": ["image#1example", "image#2example"]
+    },    
+
+    "image#1example": {
+        "props": {
+            "src": "assets/banner-wood-home.png",
+            "title": "Wood Sport Festival",
+            "alt": "Kit com corta vento e camiseta personalizada",
+            "maxHeight": 250
+        }
     },
-    "children": ["image#1example", "image#2example"]
-},
 
-"image#1example": {
-    "props": {
-        "src": "assets/banner-wood-home.png",
-        "title": "Wood Sport Festival",
-        "alt": "Kit com corta vento e camiseta personalizada",
-        "maxHeight": 250
+    "image#2example": {
+        "props": {
+            "src": "assets/banner2.png",
+            "title": "Grandes Guerreiros",
+            "alt": "Kit com camiseta preta e caneca personalizada",
+            "maxHeight": 250
+        }
     }
-},
-
-"image#2example": {
-    "props": {
-        "src": "assets/banner2.png",
-        "title": "Grandes Guerreiros",
-        "alt": "Kit com camiseta preta e caneca personalizada",
-        "maxHeight": 250
-    }
-}
 
 }
