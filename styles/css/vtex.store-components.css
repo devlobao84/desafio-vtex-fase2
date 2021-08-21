@@ -1,4 +1,9 @@
-.imageElement {border-radius: 2rem;}
+.imageElement {
+    width: 65%;
+    height: 150%;
+    border-radius: 2rem;
+    
+    }
 
 .searchBarContainer {margin-left: 200px;max-width: 200px;}
 
@@ -10,6 +15,10 @@
 
 .sellingPrice {
     color: #58FD03;
+}
+
+.container {
+    width:50%;
 }
 
 

@@ -1,4 +1,14 @@
-.flexRowContent {
+.flexRowContent--classheader {
+   
+    background-color: #1b1a1a;
+}
+
+.flexRowContent--classfooter {
+    margin-bottom: 20%;
+}
+
+
+.flexRow {
     background-color: #1b1a1a;
 }
 
@@ -8,8 +18,7 @@
     margin-left: -265%;
 }
 
-.caretIcon {    
+.caretIcon {
     bottom: -40px;
     color: #59ff00;
 }
-

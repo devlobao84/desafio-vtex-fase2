@@ -1,0 +1,26 @@
+.gallery--grid {
+    width: 100%;    
+    background-color: #212020;
+}
+
+.galleryItem {
+    width: 50px;
+    gap: 10px 10px;
+    width: 70%;
+    border: 3px solid;
+    border-color: #59ff80;
+    border-radius: 12px;
+}
+
+.searchResultContainer {
+    width: 50%;    
+    background-color: #212020;
+}
+
+
+
+
+
+
+
+

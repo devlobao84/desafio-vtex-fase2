@@ -1,5 +1,6 @@
 .slideChildrenContainer,
 .slideChildrenContainer--carosel {
+    height: 150%;    
     background-color: #1b1a1a;
 }
 
@@ -8,10 +9,22 @@
     background-color: #59ff00;
 }
 
+.sliderRightArrow {
+    margin-top: -10%;
+}
+
 .paginationDot--shelf {
     margin-top: -5%;
-
 }
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    color: #59ff00
+}
+
+.logoLink {
+    justify-content: center;
+}
+
 
 .paginationDot--isActive--shelf {
     margin-top: -5%;
@@ -34,8 +47,8 @@
 }
 
 .sliderArrows, .sliderArrows--shelf {
-    margin-top: 20%;
-    padding: 0 40% 0 40%;
+    margin-top: -5%;
+    padding: 0 -70% 0 -70%;
 }
 
 .slide {

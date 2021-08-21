@@ -1,54 +1,12 @@
 {
   "store.home": { 
     "blocks": [      
-      "flex-layout.row#principal01",
-      "list-context.product-list#demo1"              
-    ]
-  },
-  "flex-layout.row#principal01": {
-    "children": ["slider-layout#first"],
-    "props":{
-      "marginTop": 2
-     }
-  },   
-  "slider-layout#first": {
-    "props": {
-      "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
-        "phone": 1
-      },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
-    },
-    "children": ["image#1example", "image#2example"]
-  },
-
-  "image#1example": {
-    "props": {      
-      "src": "assets/banner-wood-home.png",
-      "title": "Wood Sport Festival",
-      "alt": "Kit com corta vento e camiseta personalizada",      
-      "maxHeight": 250      
-    }
-  },  
-  
-  "image#2example": {
-    "props": {  
-      "src": "assets/banner2.png",
-      "title": "Grandes Guerreiros",
-      "alt": "Kit com camiseta preta e caneca personalizada",
-      "maxHeight": 250
-    }
-  },
-  "search-result-layout": {
-    "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
-      "search-not-found-layout"
+      "slider-layout#first",
+      "search-result-layout.customQuery#inicial", 
+      "footer"      
     ]
   }
+  
 
 }
   
