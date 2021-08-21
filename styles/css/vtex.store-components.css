@@ -10,15 +10,20 @@
 .logoImage {margin-left: -50px;}
 
 .listPrice {
-    color: #ffffff;
+    color: black;
 }
 
 .sellingPrice {
-    color: #58FD03;
+    color: black;
+    font-weight: bold;
 }
 
 .container {
     width:50%;
+}
+
+.installmentsPrice {
+    color: black;
 }
 
 

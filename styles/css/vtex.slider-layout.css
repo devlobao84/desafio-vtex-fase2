@@ -28,11 +28,11 @@
 
 .paginationDot--isActive--shelf {
     margin-top: -5%;
-    background-color: #59ff00;
+    background-color: #59FF00
 }
 
 .paginationDot {
-    margin-top: -5%;
+    margin-top: -3%;
 
 }
 
@@ -43,7 +43,7 @@
 }
 
 .caretIcon {
-    color: #58FF00;
+    color: #59FF00;
 }
 
 .sliderArrows, .sliderArrows--shelf {

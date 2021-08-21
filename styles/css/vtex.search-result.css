@@ -8,8 +8,9 @@
     gap: 10px 10px;
     width: 70%;
     border: 3px solid;
-    border-color: #59ff80;
-    border-radius: 12px;
+    border-color: #59FF00;
+    border-radius: 15px;
+    gap: 20px 5px;
 }
 
 .searchResultContainer {

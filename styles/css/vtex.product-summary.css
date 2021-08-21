@@ -1,9 +1,35 @@
 
 .productBrand {    
-    color: #58FD03;
+    color: #59FF00;
 }
 
 .element {
     border-color: black;
-    
+}
+
+.priceContainer {
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+    background-color: #59FF00;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+:global(.vtex-button) {
+    color: #59FF00;
+    border: #000000;
+    border-radius: 10px;
+    background-color: #000000;
+}
+
+:global(.vtex-button):hover {
+    color: #000000;
+    border: #59FF00;
+    border-radius: 10px;
+    background-color: #59FF00;
+}
+
+.image {
+    border-radius: 10px;
 }
