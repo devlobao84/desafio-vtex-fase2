@@ -2,12 +2,16 @@
     width: 65%;
     height: 150%;
     border-radius: 2rem;
-    
-    }
+}
 
-.searchBarContainer {margin-left: 200px;max-width: 200px;}
+.searchBarContainer {
+    margin-left: 200px;
+    max-width: 200px;
+}
 
-.logoImage {margin-left: -50px;}
+.logoImage {
+    margin-left: -50px;
+}
 
 .listPrice {
     color: black;
@@ -19,7 +23,7 @@
 }
 
 .container {
-    width:50%;
+    width: 50%;
 }
 
 .installmentsPrice {
@@ -27,16 +31,37 @@
 }
 
 .autoCompleteOuterContainer {
-    
+
     border-color: #59FF00;
 }
 
 .serachBarContainer {
     width: 100%;
-    
+
 }
 
+/* Página de produtos */ 
 
+.notificationBarInner {background-color: #1B1A1A;}
 
+.notificationContent {
+    color: white
+}
 
+.productImageGallerySlide {
+    justify-content: center;
+    margin-left: 80%;
+}
+
+.swiper-wrapper {
+    margin-left:  50%;
+}
+
+.productBrand {
+    color: white;
+}
+
+.productNameContainer {
+    margin-left: -7%;
+}
 

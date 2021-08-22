@@ -12,6 +12,12 @@
     background-color: #1b1a1a;
 }
 
+.flexRowContent {
+    width: 100%;
+    color: white;
+    background-color: #0B0A14;
+}
+
 .flexCol {
     max-width: 120% !important;
     margin-top: 5%;
@@ -22,3 +28,18 @@
     bottom: -40px;
     color: #59ff00;
 }
+
+.flexColChild {
+    width: 90%;
+    height: 75px;
+    margin-left: 15%;
+}
+
+.flexCol {
+    margin-left: 5%;
+}
+
+.stretchChildrenWidth {
+    margin-left: -5%;
+}
+

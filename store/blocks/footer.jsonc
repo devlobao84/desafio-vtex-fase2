@@ -7,7 +7,7 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "sticky-layout#footer-desktop"
+      "sticky-layout#popoto"
     ],
     "props": {
       "fullWidth": true
@@ -15,19 +15,136 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "flex-layout.row#footer-mobile"
+      "sticky-layout#popoto"
     ]
   },
-  "sticky-layout#footer-desktop": {
+  "sticky-layout#popoto": {
     "props": {
       "blockClass": "sticky-header",
       "position": "bottom",
       "verticalSpacing": 0
     },
-    "children": ["flex-layout.row#footer-desktop"]
+    "children": [
+      "flex-layout.row#footer-menu",
+      "flex-layout.row#copyright"
+    ]
   },
-  "flex-layout.row#footer-desktop": {
-    "children": [      
+
+  "flex-layout.row#footer-menu": {
+    "children": [
+      "vtex.menu@2.x:menu#footer"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
+  },
+
+/* MENU- FOOTER */
+
+  "vtex.menu@2.x:menu#footer": {
+    "children": [
+      "menu-item#person",
+      "menu-item#trofeu",
+      "menu-item#carrinho",
+      "menu-item#whats"
+    ]
+  },
+  "menu-item#person": {
+    "props": {
+      "id": "menu-item-person",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Client",
+        "text": "ENTRAR"
+      },
+      "iconProps": {
+        "id": "hpa-login",
+        "size": 24,
+        "viewBox": "0 0 24 24",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+  "menu-item#trofeu": {
+    "props": {
+      "id": "menu-item-trofeu",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Client",
+        "text": "DESAFIOS"
+      },
+      "iconProps": {
+        "id": "hpa-challenges",        
+        "size": 24,
+        "viewBox": "0 0 24 24",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+
+  },
+  "menu-item#carrinho": {
+    "props": {
+      "id": "menu-item-carrinho",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Client",
+        "text": "LOJA"
+      },
+      "iconProps": {
+        "id": "hpa-carts",
+        "size": 24,
+        "viewBox": "0 0 24 24",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+
+  
+  "menu-item#whats": {
+    "props": {
+      "id": "menu-item-carrinho",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://api.whatsapp.com/send?phone=5511948959960&text=Obrigado%20por%20nos%20procurar!!",
+        "noFollow": false,
+        "tagTitle": "Client",
+        "text": "SUPORTE"
+      },
+      "iconProps": {
+        "id": "hpa-carts",
+        "size": 24,
+        "viewBox": "0 0 24 24",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheRight": true
+    }
+  },
+
+  /* COPYRIGHT */
+
+  "flex-layout.row#copyright": {
+    "children": [
       "rich-text#copyright"
     ],
     "props": {
@@ -38,19 +155,6 @@
       "fullWidth": true
     }
   },
-  "image": {
-    "props": {
-      "width": 100,
-      "src": "https://cdn.statically.io/gh/devlobao84/img-for-cdn/main/upmedal.png"
-    }
-  },
-
-  "flex-layout.row#footer-mobile": {
-    "children": [
-      "social-networks"
-    ]
-  },
- 
   "rich-text#copyright": {
     "props": {
       "text": "© Copyright | Todos os direitos reservados - Lobão",
@@ -59,5 +163,5 @@
       "font": "t-heading-6"
     }
   }
-
 }
+
